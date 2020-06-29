@@ -656,9 +656,28 @@ ul.hours_links li::before,
     color: #000000;
     border-top: 4px solid var(--clr-accent);
 }
+
 .name-date p{
     margin: 0 ;
 }
+
+.preview_outer {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+ }
+
+ .preview_outer img {
+    width: 100%;
+    margin: 0;
+    -webkit-transition: 2s linear;
+    -o-transition: 2s linear;
+    transition: 2s linear;
+ }
 
 /* Services */
 .section-services{
@@ -696,6 +715,10 @@ ul.hours_links li::before,
     background-color: var(--clr-accent);
     font-size: var(--fs-h5);
     color: #000000;
+}
+
+.img{
+    background-size: cover;
 }
 
 /* Footer */

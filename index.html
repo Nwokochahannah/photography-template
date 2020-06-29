@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index3.css">
+    <title>Fotogras</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header" id="header">
+        <nav class="navbar navbar-expand-lg transparent-bg bg-transparent darkcolor static-nav mt-sm-4 mt-2">
+            <div class="container bg-white border-radius-50 position-relative">
+                <a class="navbar-brand pl-2" href="index.html">
+                    <img src="img/FotoGrafas.svg" alt="logo" class="logo-default">
+                    <img src="img/FotoGrafas.svg" alt="logo" class="logo-scrolled">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--side menu open button-->
+                <a href="javascript:void(0)" class="d-inline-block d-lg-none sidemenu_btn mr-0" id="sidemenu_toggle">
+                    <span class="bg-dark"></span> <span class="bg-dark"></span> <span class="bg-dark"></span>
+                </a>
+            </div>
+        </nav>
+
+         <!-- side menu -->
+        <div class="side-menu opacity-0 gradient-bg">
+            <div class="overlay"></div>
+            <div class="inner-wrapper">
+                <span class="btn-close btn-close-no-padding" id="btn_sideNavClose"><i></i><i></i></span>
+                <nav class="side-nav w-100">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="close_side_menu" class="tooltip"></div>
+    </header>
+
+    <!-- Banner -->
+    <div class="section-banner parallaxie mb-5" data-aos="slide-right" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+        <div class="container">
+            <div class="section-overlay overlay-dark"></div>
+            <div class="banner_inner text-center col-md-6 col-sm-12">
+                <h1 class="raleway wow fadeInUp" data-wow-delay="400ms">We Are On The Ultimate Mission To Make You See Beauty In Yourself Or Your Products.</h1>
+                <a href="#" class="btn btn-light wow fadeInUp font-normal" data-wow-delay="450ms">Book Us Now</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About Us -->
+    
+    <section class="section-about-us" id="sectionsOne">
+        <div class="container justify-content-start">
+            <div class="about-heading section-heading mb-3 font-weight-bold">About Us</div>
+            <div class="row mb-3">
+                <div class="col-md-6 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-2" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/about1.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                        <h6 class="section-link-heading">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Laoreet habitant facilisis sapien massa duis. Consequat, 
+                            vitae elit pellentesque fringilla. Non a, neque vitae dictum arcu.
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-2" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/about2.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                        <h6 class="section-link-heading">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Laoreet habitant facilisis sapien massa duis. Consequat, 
+                            vitae elit pellentesque fringilla. Non a, neque vitae dictum arcu.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Latest Works -->
+
+    <section class="section-latest-work" id="sectionsOne">
+        <div class="container justify-content-start">
+            <div class="latest-heading section-heading mb-3 font-weight-bold">Our Latest Works</div>
+            <div class="row mb-3">
+                <div class="col-md-6 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/latest1.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                            <h4 class="text-center image-after py-1">Debby Lichen</h4>
+                        </div>
+                        <div class="name-date  d-flex justify-content-between">
+                            <p class="py-1">Ryan Dubik</p>
+                            <p class="py-1">13th June,2020</p>
+                        </div>
+                        <h6 class="section-link-heading">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Laoreet habitant facilisis sapien massa duis. Consequat, 
+                            vitae elit pellentesque fringilla. Non a, neque vitae dictum arcu.
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/latest2.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                            <h4 class="text-center image-after py-1">Debby Lichen</h4>
+                        </div>
+                        <div class="name-date d-flex justify-content-between">
+                            <p class="py-1">Ryan Dubik</p>
+                            <p class="py-1">13th June,2020</p>
+                        </div>
+                        <h6 class="section-link-heading">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Laoreet habitant facilisis sapien massa duis. Consequat, 
+                            vitae elit pellentesque fringilla. Non a, neque vitae dictum arcu.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+
+    <section class="section-services py-3" id="sectionsOne">
+        <div class="container justify-content-start">
+            <div class="services-heading section-heading mb-3 font-weight-bold">Services</div>
+            <div class="row mb-3">
+                <div class="col-md-4 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <p class="mb-2 section-services-button px-2 py-2">PHOTOSHOOT</p>
+                        <div class="preview_outer mb-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/servphoto.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <p class="mb-2 section-services-button px-2 py-2">EVENT COVERING</p>
+                        <div class="preview_outer mb-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/servevent.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <p class="mb-2 section-services-button px-2 py-2">PRODUCTION</p>
+                        <div class="preview_outer mb-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/servprod.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-outline px-5 btn-learn-more">Learn More</a>
+        </div>
+    </section>
+
+
+    <!-- Sessions -->
+
+    <section class="section-session mt-2 pt-4" id="sectionsOne">
+        <div class="container justify-content-start">
+            <div class="session-heading section-heading mb-3 font-weight-bold">Sessions</div>
+            <div class="row mb-3">
+                <div class="col-md-6 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-2" data-aos="fade-out" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/session1.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                        <h6 class="section-link-heading">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Laoreet habitant facilisis sapien massa duis. Consequat, 
+                            vitae elit pellentesque fringilla. Non a, neque vitae dictum arcu.
+                        </h6>
+                        <a href="#" class="btn btn-outline-dark px-5 btn-watch-more">Watch More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-2" data-aos="fade-out" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/session2.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                        <h6 class="section-link-heading">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Laoreet habitant facilisis sapien massa duis. Consequat, 
+                            vitae elit pellentesque fringilla. Non a, neque vitae dictum arcu.
+                        </h6>
+                        <a href="#" class="btn btn-outline-dark px-5 btn-watch-more">Watch More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery -->
+    <section class="section-session mt-2" id="sectionsOne">
+        <div class="container justify-content-start">
+            <div class="gallery-heading section-heading mb-3 font-weight-bold">Gallery</div>
+            <div class="row mb-3">
+                <img src="img/GALLERY.svg" alt="Gallery" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Top Photographers -->
+    <section class="section-photgraphers py-3" id="sectionsOne">
+        <div class="container justify-content-start">
+            <div class="photographers-heading section-heading mb-3 font-weight-bold">Our Top Photographers</div>
+            <div class="row mb-3">
+                <div class="col-md-4 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-1" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/topphoto1.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                            <h4 class="text-center image-after py-1">Debby Gerald</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-1" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/topphoto2.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                            <h4 class="text-center image-after py-1">Derek Grafindor</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-1" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/topphoto3.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                            <h4 class="text-center image-after py-1">Jedidiah Asamoah</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact info -->
+    <section class="section-contact py-3" id="sectionsOne">
+        <div class="container justify-content-start contact-container">
+            <div class="contact-heading section-heading mb-3 font-weight-bold">Contact Us</div>
+            <div class="row mb-3">
+                <div class="col-md-4 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/location.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                        <p>4107th Avenue, Grassland, Alberta, Canada</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/phone.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                        <p>+4417653907</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 justify-content-start">
+                    <div class="section-box">
+                        <div class="preview_outer mb-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+                            <a href="#" target="_blank">
+                                <img src="img/email.svg" alt="section_preview" class="img-fluid">
+                            </a>
+                        </div>
+                        <p>Fotografas@hey.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-heading section-heading mb-3 font-weight-bold">Or Message Us</div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="inputName"> Name</label>
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="inputEmail">Email</label>
+                                        <input type="email" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputMessage">Message</label>
+                                <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                            </div>
+                            <br>
+                            <a class="btn btn-outline-dark" href="#" role="button"><span>Submit</span></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-5 footer-section">
+        <div class="container-fluid text-md-left">
+            <div class="row">
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <h5>Fotografas</h5>
+                    <p class=" footer-items">4107th Avenue,<br> Grassland,Alberta,<br>Canada</p>
+                </div>
+                <div class="col-md-4 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">About Us</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                        <a href="#" class=" footer-items">Our Mission</a>
+                        </li>
+                        <li>
+                        <a href="#" class=" footer-items">The Team</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Get Support</h5>
+                    <ul class="list-unstyled">
+                        <a href="#" class=" footer-items">FAQ</a>
+                        </li>
+                        <li>
+                        <a href="#" class=" footer-items">Customer Service</a>
+                        </li>
+                        <li>
+                        <a href="#" class=" footer-items">Ask a question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+       <div class="position-relative">
+        <div class="footer-section-items py-3 col-md-3 col-sm-2 text-center">
+            <a href="#" class="col-6" ><i class="fa fa-twitter"></i></a>
+            <a href="#" class="col-6"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="col-6"><i class="fa fa-facebook"></i></a>
+          </div>
+       </div>
+        <!-- Copyright -->
+  
+    </footer>
+</body>
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+ <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+ <script src="index3.js"></script>
+</html>

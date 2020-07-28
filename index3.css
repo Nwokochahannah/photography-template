@@ -845,6 +845,6 @@ ul.hours_links li::before,
         margin-top: 1.5rem;
     }
     .navbar-brand{
-        margin: 1rem;
+        margin: 0.5rem;
     }
 }

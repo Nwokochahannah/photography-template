@@ -836,7 +836,7 @@ ul.hours_links li::before,
 
 @media (max-width: 576px) {
     .side-menu .inner-wrapper {
-        padding: 5rem 5rem;
+        padding: 2rem 5rem;
     }
     .side-menu {
         width: 100% !important;
@@ -845,6 +845,6 @@ ul.hours_links li::before,
         margin-top: 1.5rem;
     }
     .navbar-brand{
-        margin: 0;
+        margin: 1rem;
     }
 }

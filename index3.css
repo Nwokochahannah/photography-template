@@ -836,7 +836,7 @@ ul.hours_links li::before,
 
 @media (max-width: 576px) {
     .side-menu .inner-wrapper {
-        padding: 2rem 5rem;
+        padding: 5rem 5rem;
     }
     .side-menu {
         width: 100% !important;
